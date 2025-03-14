@@ -115,6 +115,10 @@
 			  {
 				"name": "boilers", "rename": "boilers", "audio": "planets/assets/MD/alarms/boilers.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
 			  },
+			  {
+				"name": "StallWarning", "rename": "StallWarning", "audio": "planets/assets/MD/altitude/StallWarning.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
+			  },
+			  
 			  
 			  
 			  {
