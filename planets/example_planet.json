@@ -58,6 +58,18 @@
 				"identificationRadius": 30,
 				"sourceRadius": 7
 			  },
+			  
+			  {
+				"name": "BAltitudeAlarm", "rename": "BAltitudeAlarm", "audio": "planets/assets/BOEING/alarms/terrainPullUp.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
+			  },
+			  {
+				"name": "BOverspeed", "rename": "BOverspeed", "audio": "planets/assets/BOEING/alarms/cautionTerrainSinkrate.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
+			  },
+			  {
+				"name": "BAutopilotAlarm", "rename": "BAutopilotAlarm", "audio": "planets/assets/BOEING/alarms/autopilot.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
+			  },
+			  
+			  
 			  {
 				"name": "2500", "rename": "2500", "audio": "planets/assets/MD/altitude/2500.mp3", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
 			  },
@@ -98,13 +110,13 @@
 				"name": "10", "rename": "10", "audio": "planets/assets/MD/altitude/10.mp3", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
 			  },
 			  {
-				"name": "AltitudeAlarm", "rename": "AltitudeAlarm", "audio": "planets/assets/MD/alarms/AltitudeAlarm.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
+				"name": "MAltitudeAlarm", "rename": "MAltitudeAlarm", "audio": "planets/assets/MD/alarms/AltitudeAlarm.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
 			  },
 			  {
-				"name": "Overspeed", "rename": "Overspeed", "audio": "planets/assets/MD/alarms/Overspeed.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
+				"name": "MOverspeed", "rename": "MOverspeed", "audio": "planets/assets/MD/alarms/Overspeed.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
 			  },
 			  {
-				"name": "AutopilotAlarm", "rename": "AutopilotAlarm", "audio": "planets/assets/MD/alarms/AutopilotAlarm.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
+				"name": "MAutopilotAlarm", "rename": "MAutopilotAlarm", "audio": "planets/assets/MD/alarms/AutopilotAlarm.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
 			  },
 			  {
 				"name": "eng1fire", "rename": "eng1fire", "audio": "planets/assets/MD/alarms/eng1fire.ogg", "onlyAudibleToScope": false, "position": { "x": 0, "y": 0, "z": 0 }, "frequency": "Traveler"
