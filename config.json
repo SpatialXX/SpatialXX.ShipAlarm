@@ -5,45 +5,54 @@
       "type": "selector",
       "value": "Boeing 737",
       "options": [
-        "MD-11",
-        "Boeing 737",
-        "Airbus A350"
+        "MD-80",
+        "Boeing 737"
       ],
       "tooltip": "Which voice should the ship alarm use"
+    },
+    "Read Numbers": {
+      "type": "selector",
+      "value": "Altitude",
+      "options": [
+        "Altitude",
+        "Speed",
+        "None"
+      ],
+      "tooltip": "What informations should be read out by the ship"
     },
     "Alarms Volume": {
       "type": "slider",
       "min": 0,
       "max": 100,
-      "value": 100.0,
+      "value": 20.0,
       "tooltip": "Volume at which the alarms will play"
-    },
-    "stallWarning": {
-      "type": "toggle",
-      "value": true,
-      "title": "Enable Stall Warning",
-      "tooltip": "Plays an alarm if the ship is falling and it's vertical speed is between 0 and 15 m/s"
     },
     "Overspeed Sensibility": {
       "type": "slider",
       "min": 0,
       "max": 100,
       "value": 0.0,
-      "tooltip": "Starts an alarm if the ship speed is at 1/10th of the ship distance to target or higher. Minimum at 1/10, maximum at 2/10"
+      "tooltip": "Starts an alarm if the ship speed is at 1/10th of the ship distance to target or higher. Minimum at 1/10, middle at 1.5/10 maximum at 2/10"
     },
     "Altitude Warning Distance": {
       "type": "slider",
       "min": 0,
       "max": 100,
-      "value": 0.0,
-      "tooltip": "When in overspeed, allows the altitude alarm to play at a set distance. Minimum at 1km, maximum at 5km"
+      "value": 100.0,
+      "tooltip": "When in overspeed, allows the altitude alarm to play at a set distance. Minimum at 1km, middle at 3km maximum at 5km"
     },
     "Sun Warning Distance": {
       "type": "slider",
       "min": 0,
       "max": 100,
-      "value": 100.0,
-      "tooltip": "At which distance from the sun should an alarm play. Minimum a 3km, maximum at 6km"
+      "value": 50.0,
+      "tooltip": "At which distance from the sun should an alarm play. Minimum a 3km, middle at 4.5 maximum at 6km"
+    },
+    "stallWarning": {
+      "type": "toggle",
+      "value": true,
+      "title": "Enable Stall Warning",
+      "tooltip": "Plays an alarm if the ship is falling and it's vertical speed is between 0 and 15 m/s"
     }
   }
 }
